@@ -36,5 +36,5 @@ def third_of_day_with_most_failures(file_to_read):
         return "16:00:00 - 23:59:59", most_failures
 
 # Example usage
-time_period, failures = third_of_day_with_most_failures("output.txt")
+time_period, failures = third_of_day_with_most_failures("test2.txt")
 print(f"Time period with most failures: {time_period}, Failures: {failures}")
