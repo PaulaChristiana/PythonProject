@@ -1,7 +1,7 @@
 import unittest
 from project7 import run_times_per_app
 
-class Test6(unittest.TestCase):
+class Test7(unittest.TestCase):
     def setUp(self):
         self.result= run_times_per_app("test2.txt")
         print(self.result)
