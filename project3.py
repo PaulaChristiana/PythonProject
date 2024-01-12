@@ -1,4 +1,4 @@
-def count_app_failures(file_to_read):
+def count_app_failures3(file_to_read):
     with open(file_to_read, 'r') as file:
         log_data = file.readlines()
 

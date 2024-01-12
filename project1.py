@@ -27,6 +27,6 @@ def count(file_to_read):
 # log_counts = count("test.txt")
 # print(log_counts)
 
-log_counts = count("test2.txt")
-print(log_counts)
-print(log_counts[('ERROR', 'BackendApp')])
+#log_counts = count("test2.txt")
+#print(log_counts)
+#print(log_counts[('ERROR', 'BackendApp')])
