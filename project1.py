@@ -8,7 +8,7 @@ def count(file_to_read):
     with open(file_to_read, mode = "r") as file:
         log_data = file.read()
         
-    # log_entries = re.findall(r"\[([A-Z]+)\] - ([\w]+)", log_data)    
+        
     log_entries = re.findall(r"\[([A-Z]+)\] - ([\w]+)", log_data) 
     
     log_counts = Counter()
@@ -19,13 +19,7 @@ def count(file_to_read):
             log_counts[(log_type,app)] += 1
     return log_counts
             
-    #output_str = ""
-    #for (log_type), count in log_counts.items():
-     #   output_str += f"{0} - {log_type} logs: {int(count)}\n" 
-    # return{k: int(v) for k, v in log_counts.items() if v >= 1}
-    #return output_str.strip()
-# log_counts = count("test.txt")
-# print(log_counts)
+    
 
 log_counts = count("test2.txt")
 print(log_counts)
