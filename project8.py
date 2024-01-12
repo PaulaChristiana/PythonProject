@@ -29,7 +29,7 @@ def busiest_hour_per_app(file_to_read):
 
     return busiest_hours
 
-# Example usage with a hypothetical file path
+# file
 busiest_hours = busiest_hour_per_app("test2.txt")
 busiest_hours
 
