@@ -30,7 +30,7 @@ def calculate_failure_rates(file_to_read):
             
     return failure_rates
 
-# Example usage with a hypothetical file path
+# File
 failure_rates = calculate_failure_rates("test2.txt")
 
 # Format the output as a string
