@@ -1,6 +1,5 @@
 import unittest
 from proiectFinal import Proiect
-
 class Test1(unittest.TestCase):
     def setUp(self):
         self.__proiect = Proiect()
